@@ -24,7 +24,6 @@ namespace dotnet_rpg.Services.WeaponService
         }
 
 
-
         public async Task<ServiceResponse<GetCharacterDto>> AddWeapon(AddWeaponDto newWeapon)
         {
             ServiceResponse<GetCharacterDto> response = new ServiceResponse<GetCharacterDto>();
